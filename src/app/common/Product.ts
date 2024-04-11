@@ -12,6 +12,7 @@ export class Product {
     'enteredDate': Date;
     'category': Category;
     // 'rates': Rate[];
+    priceNew: any
 
     constructor(productId:number) {
         this.productId = productId;
